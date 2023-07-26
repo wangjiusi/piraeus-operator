@@ -126,3 +126,6 @@ save-images.cn: pull-images.cn
 	docker save $$( ./list_images.sh ./charts/piraeus/values.cn.yaml ) \
 	| gzip > ./piraeus_images.tgz
 	ls -lh ./piraeus_images.tgz
+
+update-ha-controller:
+	./update_ha-controller_chart.sh

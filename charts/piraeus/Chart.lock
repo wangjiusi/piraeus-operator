@@ -1,6 +1,9 @@
 dependencies:
-- name: etcd
-  repository: ""
-  version: 0.7.5
-digest: sha256:bc7f1f320282a7cff3a18f7f988aedf3939eea28c4c6b4c260ce4c0b9ed4b788
-generated: "2022-02-24T16:57:17.935512621+01:00"
+  - name: etcd
+    repository: ""
+    version: 0.7.5
+  - name: ha-controller
+    repository: ""
+    version: "1.1.4"
+digest: sha256:6a4dc84a6dc6a2c9fb95947904a46d57dcfc98b8e2f0233b0fb45af4b5cd56e9
+generated: "2023-07-25T18:00:26.823639+08:00"
